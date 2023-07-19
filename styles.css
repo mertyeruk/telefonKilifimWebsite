@@ -1,0 +1,61 @@
+header{
+    background-color:#f0f0f0;
+    padding:10px;
+}
+.navbar{
+    display: grid;
+    justify-content: center;
+}
+.nav-list{
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+}
+.nav-list li{
+    margin-right: 20px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0; /* Son li elemanının sağ tarafında boşluk olmasın */
+}
+  
+.nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+#baslik{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#333;
+}
+
+#imgt{
+    display:"block";
+    margin:"auto";
+    margin-left: 155px;
+    width: 1300px;
+}
+
+img{
+    width: 300px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.product {
+    text-align: center;
+}
+
+.about{
+    text-align: center;
+}
+
+.orta{
+    text-align: center;
+}
